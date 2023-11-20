@@ -55,4 +55,4 @@ Linguagem de programação principal para o desenvolvimento do sistema.
 Frameworks para implementação e treinamento de redes neurais convolucionais.
 
 **Ambiente Google Colab:**
-Plataforma em nuvem para treinamento eficiente de modelos de aprendizado de máquina.
+Plataforma em nuvem para treinamento mais eficiente de modelos de aprendizado de máquina.
