@@ -3,7 +3,7 @@ Modelo de Detecção de Falhas em Peças na Indústria Moveleira após Processo 
 
 ## Resumo:
 
-Este projeto de Trabalho de Conclusão de Curso (TCC) concentra-se no desenvolvimento de um sistema de detecção de falhas em peças da indústria moveleira, especificamente após o processo de pintura. A utilização de técnicas avançadas de processamento de imagens visa identificar e classificar defeitos, promovendo a qualidade e confiabilidade na produção de móveis.
+Este projeto de Trabalho de Conclusão de Curso (TCC) concentra-se no desenvolvimento de um sistema de detecção de falhas em peças da indústria moveleira, especificamente após o processo de pintura. A utilização de técnicas avançadas de processamento de imagens visa identificar e classificar defeitos, promovendo a qualidade e confiabilidade na produção de componentes para móveis.
 
 ## Objetivo:
 
