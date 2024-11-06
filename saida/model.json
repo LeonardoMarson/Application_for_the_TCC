@@ -1,0 +1,68 @@
+{
+  "name": "Detec\u00E7\u00E3o de Falhas em Pe\u00E7as na Ind\u00FAstria Moveleira Ap\u00F3s Processo de Pintura Utilizando T\u00E9cnicas de Processamento de Imagens com Redes Neurais Artificiais",
+  "description": "Identifica se um objeto est\u00E1 conforme ou nao_conforme entre 2 categorias.",
+  "version": "v1",
+  "subgraph_metadata": [
+    {
+      "input_tensor_metadata": [
+        {
+          "name": "image",
+          "description": "Imagem de entrada a ser classificada. A imagem esperada \u00E9 de 299 x 299, com tr\u00EAs canais (red, blue, e green) por pixel. Cada valor no tensor \u00E9 um \u00FAnico byte entre 0 e 255.",
+          "content": {
+            "content_properties_type": "ImageProperties",
+            "content_properties": {
+              "color_space": "RGB"
+            }
+          },
+          "process_units": [
+            {
+              "options_type": "NormalizationOptions",
+              "options": {
+                "mean": [
+                  127.5
+                ],
+                "std": [
+                  127.5
+                ]
+              }
+            }
+          ],
+          "stats": {
+            "max": [
+              255.0
+            ],
+            "min": [
+              0.0
+            ]
+          }
+        }
+      ],
+      "output_tensor_metadata": [
+        {
+          "name": "Probabilidade",
+          "description": "Probabilidade de 2 labels respectivamente.",
+          "content": {
+            "content_properties_type": "FeatureProperties"
+          },
+          "stats": {
+            "max": [
+              1.0
+            ],
+            "min": [
+              0.0
+            ]
+          },
+          "associated_files": [
+            {
+              "name": "label.txt",
+              "description": "Labels para os objetos que o modelo pode reconhecer.",
+              "type": "TENSOR_AXIS_LABELS"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "author": "Leonardo Marson",
+  "license": "Lican\u00E7a Apache. Vers\u00E3o 2.0 http://www.apache.org/licenses/LICENSE-2.0."
+}
