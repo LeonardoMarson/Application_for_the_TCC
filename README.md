@@ -1,9 +1,74 @@
-# Descrição do Projeto para TCC: 
+# Project Description:
+Model for Detecting Faults in Parts in the Mobile Industry after the Painting Process using Image Processing Techniques
+
+## Summary:
+
+This project focuses on the development of a system for detecting faults in parts in the mobile industry, specifically after the painting process. The use of advanced image processing techniques aims to identify and classify defects, promoting quality and reliability in the production of furniture components.
+
+## Objective:
+
+The main objective of this project is to implement a model capable of analyzing images of parts after the painting process and identifying possible defects. The system will use advanced image processing and machine learning techniques to perform fault detection and classification, contributing to improving quality in mobile production.
+
+## Methodology:
+
+**Data Acquisition:**
+Collection of a representative set of images of parts after the painting process, covering different types of defects.
+
+**Image Preprocessing:**
+Normalization, contrast adjustment, and other preprocessing techniques to improve image quality and highlight potential flaws.
+
+**Model Development:**
+Implementation of a convolutional neural network (CNN) architecture adapted for image defect detection.
+
+Choosing appropriate layers and activation functions for a specific task.
+
+**Training and Validation:**
+Division of the dataset into training, validation, and test sets.
+
+Training the model using the training set and tuning hyperparameters to improve performance.
+
+**Model Evaluation:**
+Evaluation of the model's ability to detect and classify different types of flaws.
+
+Use of specific specifications to assess the sensitivity and specificity of the system.
+
+**Integration into the Industrial Environment:**
+Adaptation of the model to operate in a real industrial environment, considering lighting variability and specific conditions.
+
+## Expected Contributions:
+
+**Improvement in Production Quality:**
+Contribution to the early identification of defects, avoiding the delivery of parts with paint problems.
+
+**Reduction of Waste and Costs:**
+Minimization of losses by identifying and correcting defects before the final assembly stage, resulting in resource savings.
+
+**Applicability in the Mobile Industry:**
+Development of a practical and applicable solution in the context of the mobile industry, facilitating integration into existing production lines.
+
+## Keywords:
+*Fault Detection, Image Processing, Mobile Industry, Machine Learning, Production Quality.*
+
+## Technologies Used:
+
+**Python:**
+Main programming language for system development.
+
+**TensorFlow and Keras:**
+Frameworks for implementing and training convolutional neural networks.
+
+**Google Colab Environment:**
+Cloud platform for more efficient training of machine learning models.
+
+**            **
+[Português]
+
+# Descrição do Projeto: 
 Modelo de Detecção de Falhas em Peças na Indústria Moveleira após Processo de Pintura utilizando Técnicas de Processamento de Imagens
 
 ## Resumo:
 
-Este projeto de Trabalho de Conclusão de Curso (TCC) concentra-se no desenvolvimento de um sistema de detecção de falhas em peças da indústria moveleira, especificamente após o processo de pintura. A utilização de técnicas avançadas de processamento de imagens visa identificar e classificar defeitos, promovendo a qualidade e confiabilidade na produção de componentes para móveis.
+Este projeto concentra-se no desenvolvimento de um sistema de detecção de falhas em peças da indústria moveleira, especificamente após o processo de pintura. A utilização de técnicas avançadas de processamento de imagens visa identificar e classificar defeitos, promovendo a qualidade e confiabilidade na produção de componentes para móveis.
 
 ## Objetivo:
 
